@@ -35,7 +35,7 @@ const Navbar = () => {
           />
         </div>
         <div className='w-1/3 flex flex-row gap-3 justify-end items-center'>
-          <NavSocialMenu socialStyles='flex flex-row gap-3 justify-end items-center relative w-full text-[32px] text-rd-flag-red' />
+          <NavSocialMenu socialStyles='max-[1279px]:hidden flex flex-row gap-3 justify-end items-center relative w-full text-[32px] text-rd-flag-red' />
           <span className='hidden'>
             <CgSearch className={`text-[32px] !text-rd-flag-red`} />
           </span>
