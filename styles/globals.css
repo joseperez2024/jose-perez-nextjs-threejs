@@ -58,6 +58,13 @@
   @apply bg-[url('https://res.cloudinary.com/dpsdypwrh/image/upload/v1691936999/jose-perez/republica-dominicana/jose-perez-2024-bandera-republica-dominicana.svg')] bg-center bg-cover bg-no-repeat opacity-25;
 }
 
+.jp-bg-logo-flag-outline {
+  @apply bg-[url('https://res.cloudinary.com/dpsdypwrh/image/upload/v1692115651/jose-perez/logo/jose-perez-2024-logo-bg-flag-outline-only.svg')] bg-center bg-cover bg-no-repeat opacity-25;
+}
+/* .jp-bg-logo-flag-outline {
+  @apply bg-[url('https://res.cloudinary.com/dpsdypwrh/image/upload/v1692113694/jose-perez/logo/jose-perez-2024-logo-flag-outline-only-1920x1080.svg')] bg-center bg-cover bg-no-repeat opacity-25;
+} */
+
 .bg-polymorphism {
   background-color: rgba(255, 255, 255, 0.85);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -123,4 +130,8 @@ input[type='file'] {
 
 .sketch-picker > div:nth-child(3) {
   display: none !important;
+}
+
+.jp-home-section-youtube .jp-reactplayer-youtube > div {
+  /* @apply !w-[95%] !h-[95%]; */
 }

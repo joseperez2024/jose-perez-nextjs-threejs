@@ -56,14 +56,17 @@ const Hero = () => {
               <h1
                 className={`${monserrat.className} font-black uppercase text-xl text-white text-center`}
               >
-                <span className='block text-[30px] min-[340px]:text-[33px] min-[480px]:text-[40px]  sm:text-[2rem] md:text-[36px] lg:text-[40px] min-[1200px]:text-5xl  min-[1360px]:text-[56px] min-[1600px]:text-6xl leading-tight sm:leading-normal'>
+                <span className='block text-[30px] min-[340px]:text-[33px] min-[480px]:text-[40px]  sm:text-[2rem] md:text-[36px] lg:text-[40px] min-[1200px]:text-5xl  min-[1360px]:text-[56px] min-[1600px]:text-6xl !leading-tight '>
                   José Pérez 2024
                 </span>
-                <span className='block text-[16px] min-[340px]:text-[18px] min-[480px]:text-[22px]  sm:text-[17px] md:text-[1.25rem] lg:text-[22px] min-[1200px]:text-[26px] min-[1360px]:text-[31px] min-[1600px]:text-[33px] leading-tight md:leading-relaxed'>
-                  Diputado Circunscripción 3
+                <span className='block text-5xl min-[340px]:text-[54px] min-[480px]:text-[66px]  sm:text-[52px] md:text-[60px] lg:text-[22px] min-[1200px]:text-[80px] min-[1360px]:text-[94px] min-[1600px]:text-[100px] !leading-none'>
+                  Diputado
                 </span>
-                <span className='block text-[22px] min-[340px]:text-[24px] min-[480px]:text-[30px] sm:text-[23px] md:text-[27px] lg:text-3xl min-[1200px]:text-4xl min-[1360px]:text-[42px] min-[1600px]:text-[46px] leading-tight'>
-                  Santo Domingo Este
+                <span className='block text-[29px] min-[340px]:text-[32px] min-[480px]:text-[40px] sm:text-[31px] md:text-[36px] lg:text-3xl min-[1200px]:text-5xl min-[1360px]:text-[56px] min-[1600px]:text-[60px] !leading-tight min-[1200px]:!leading-[1.125] '>
+                  Santo Domingo
+                </span>
+                <span className='block text-[25px] min-[340px]:text-[27px] min-[480px]:text-[34px] sm:text-[26px] md:text-[31px] lg:text-3xl min-[1200px]:text-[40px] min-[1360px]:text-[48px] min-[1600px]:text-[52px] !leading-tight min-[1200px]:!leading-[1.125] '>
+                  Circunscripción 3
                 </span>
               </h1>
             </motion.div>
@@ -71,7 +74,7 @@ const Hero = () => {
               <motion.div className='relative aspect-[16/3] w-[40%] sm:w-[60%] mx-auto max-w-[240px]'>
                 <Image
                   src={`https://res.cloudinary.com/dpsdypwrh/image/upload/v1691799730/jose-perez/opcion-democratica/jose-perez-2024-logo-opcion-democratica-text-white_dasmeb.png`}
-                  alt='José Pérez 2024 Diputado, Circunscripción 3 Santo Domingo Este. ¡Vamos Arreglar Esta Vaina! | Opción Democrática'
+                  alt='José Pérez 2024 Diputado, Santo Domingo Circunscripción 3. ¡Vamos Arreglar Esta Vaina! | Opción Democrática'
                   fill
                   sizes='auto'
                   className='object-contain'
@@ -87,7 +90,7 @@ const Hero = () => {
             <motion.div className='relative aspect-square w-[95%] min-[480px]:w-[80%] min-[560px]:w-[75%] sm:w-[70%] md:w-[65%] xl:w-[60%] min-[1440px]:w-[55%] mx-auto'>
               <Image
                 src={`https://res.cloudinary.com/dpsdypwrh/image/upload/v1691711146/jose-perez/home/jp-2024-headsot-standing-sideways-square.webp`}
-                alt='José Pérez 2024 Diputado, Circunscripción 3 Santo Domingo Este. ¡Vamos Arreglar Esta Vaina!'
+                alt='José Pérez 2024 Diputado, Santo Domingo Circunscripción 3. ¡Vamos Arreglar Esta Vaina!'
                 fill
                 sizes='auto'
                 className='object-contain'
@@ -97,7 +100,7 @@ const Hero = () => {
               <motion.div className='relative aspect-[16/7.5] min-[480px]:w-[85%] min-[560px]:w-[80%] sm:w-[75%] md:w-[70%] xl:w-[65%] min-[1440px]:w-[60%] mx-auto -mt-14 min-[400px]:-mt-[4.5rem] min-[1600px]:-mt-[5rem]'>
                 <Image
                   src={`https://res.cloudinary.com/dpsdypwrh/image/upload/v1691793361/jose-perez/tagline/jose-perez-2024-tagline-vamos-arreglar-esta-vaina-web.webp`}
-                  alt='José Pérez 2024 Diputado, Circunscripción 3 Santo Domingo Este. ¡Vamos Arreglar Esta Vaina!'
+                  alt='José Pérez 2024 Diputado, Santo Domingo Circunscripción 3. ¡Vamos Arreglar Esta Vaina!'
                   fill
                   sizes='auto'
                   className='object-contain'
