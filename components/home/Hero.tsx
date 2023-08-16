@@ -73,7 +73,7 @@ const Hero = () => {
             <motion.div className='w-full h-full' {...headContainerAnimation}>
               <motion.div className='relative aspect-[16/3] w-[40%] sm:w-[60%] mx-auto max-w-[240px]'>
                 <Image
-                  src={`https://res.cloudinary.com/dpsdypwrh/image/upload/v1691799730/jose-perez/opcion-democratica/jose-perez-2024-logo-opcion-democratica-text-white_dasmeb.png`}
+                  src={`https://res.cloudinary.com/dpsdypwrh/image/upload/v1692219636/jose-perez/opcion-democratica/jose-perez-2024-logo-opcion-democratica-all-white.svg`}
                   alt='José Pérez 2024 Diputado, Santo Domingo Circunscripción 3. ¡Vamos Arreglar Esta Vaina! | Opción Democrática'
                   fill
                   sizes='auto'
