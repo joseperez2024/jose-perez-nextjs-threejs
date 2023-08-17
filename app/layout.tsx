@@ -1,4 +1,4 @@
-import { Navbar } from '@/components'
+import { ClientOnly, Navbar } from '@/components'
 import '@/styles/globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
@@ -64,7 +64,9 @@ export default function RootLayout({
   return (
     <html lang='en' className=''>
       <body className={`${inter.className}  dark:bg-od-primary-brown`}>
-        <Navbar />
+        <ClientOnly>
+          <Navbar />
+        </ClientOnly>
         {children}
       </body>
     </html>

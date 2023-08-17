@@ -5,7 +5,6 @@ import { useEffect, useState } from 'react'
 
 import ReactPlayer, { YouTubeConfig } from 'react-player/youtube'
 
-import { ClientOnly } from '@/components'
 import { fadeIn, staggerContainer } from '@/utils/motion'
 
 const YouTube = () => {
@@ -24,7 +23,7 @@ const YouTube = () => {
   }
 
   return (
-    <ClientOnly>
+    <>
       <motion.section
         className='jp-home-section-youtube relative flex flex-col justify-center items-center h-[65vw] my-5 '
         {...staggerContainer}
@@ -37,8 +36,7 @@ const YouTube = () => {
           <ReactPlayer {...playerProps} />
         </motion.div>
       </motion.section>
-      {/* <div className='w-[100vw] h-[100vh]'></div> */}
-    </ClientOnly>
+    </>
   )
 }
 

@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { navVariants } from '@/utils/motion'
 import { CgMenuLeft, CgSearch } from 'react-icons/cg'
-import { NavSocialMenu } from '@/components'
+import { LogoSvg, NavSocialMenu } from '@/components'
 
 const Navbar = () => {
   return (
@@ -26,13 +26,14 @@ const Navbar = () => {
           </span>
         </div>
         <div className='relative w-full max-w-[180px]  aspect-[16/7.5] max-[719px]:h-12 max-h-16 z-20'>
-          <Image
+          {/* <Image
             src={`https://res.cloudinary.com/dpsdypwrh/image/upload/v1691771575/jose-perez/logo/jose-perez-2024-logo-flag-outline-vector.svg`}
             alt='José Pérez 2024 Diputado, Santo Domingo Circunscripción 3 | ¡Vamos Arreglar Esta Vaina!'
             fill
             sizes='auto'
             className='object-contain'
-          />
+          /> */}
+          <LogoSvg />
         </div>
         <div className='w-1/3 flex flex-row gap-3 justify-end items-center'>
           <NavSocialMenu socialStyles='max-[1279px]:hidden flex flex-row gap-3 justify-end items-center relative w-full text-[32px] text-rd-flag-red' />

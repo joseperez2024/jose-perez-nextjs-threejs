@@ -14,9 +14,10 @@ import Tab from './customizer/Tab'
 
 import HomeComponent from './home/HomeComponent'
 import Hero from './home/Hero'
-import YouTube from './home/YouTube'
+import LogoSvg from './logo/LogoSvg'
 import Navbar from './navbar/Navbar'
 import NavSocialMenu from './navbar/NavSocialMenu'
+import YouTube from './home/YouTube'
 
 export {
   AIPicker,
@@ -29,6 +30,7 @@ export {
   FilePicker,
   HomeComponent,
   Hero,
+  LogoSvg,
   Navbar,
   NavSocialMenu,
   Shirt,
