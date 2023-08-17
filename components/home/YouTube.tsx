@@ -10,7 +10,7 @@ import { fadeIn, staggerContainer } from '@/utils/motion'
 
 const YouTube = () => {
   const playerProps = {
-    url: 'https://www.youtube.com/watch?v=w9EurwkGCqg',
+    url: 'https://youtu.be/IuHhCu71qIE',
     width: '90%',
     height: '90%',
     playing: false,
@@ -37,6 +37,7 @@ const YouTube = () => {
           <ReactPlayer {...playerProps} />
         </motion.div>
       </motion.section>
+      {/* <div className='w-[100vw] h-[100vh]'></div> */}
     </ClientOnly>
   )
 }
