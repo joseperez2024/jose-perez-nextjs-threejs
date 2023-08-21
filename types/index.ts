@@ -54,3 +54,22 @@ export interface AiPickerProps {
 export interface NavSocialMenu {
   socialStyles?: string | undefined
 }
+
+export interface TextTypingProps {
+  title?: string
+  textStyles?: string
+}
+export interface TextTitleProps {
+  title?: string | ReactElement
+  textStyles?: string
+}
+
+export interface IssueCardProps {
+  active: string
+  id: string
+  index: number
+  setActive: (id: string) => void
+  title: string
+  subtitle: string
+  summary: string
+}

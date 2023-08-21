@@ -14,10 +14,18 @@ import Tab from './customizer/Tab'
 
 import HomeComponent from './home/HomeComponent'
 import Hero from './home/Hero'
+import Issues from './home/Issues'
+import IssueCard from './home/IssueCard'
+import YouTube from './home/YouTube'
+
 import LogoSvg from './logo/LogoSvg'
+import LogoSvgMotion from './logo/LogoSvgMotion'
+
 import Navbar from './navbar/Navbar'
 import NavSocialMenu from './navbar/NavSocialMenu'
-import YouTube from './home/YouTube'
+
+import TextTitle from './text/TextTitle'
+import TextTyping from './text/TextTyping'
 
 export {
   AIPicker,
@@ -30,10 +38,15 @@ export {
   FilePicker,
   HomeComponent,
   Hero,
+  Issues,
+  IssueCard,
   LogoSvg,
+  LogoSvgMotion,
   Navbar,
   NavSocialMenu,
   Shirt,
   Tab,
+  TextTitle,
+  TextTyping,
   YouTube,
 }

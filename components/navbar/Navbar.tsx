@@ -25,7 +25,7 @@ const Navbar = () => {
             <CgMenuLeft className={`text-[32px] text-rd-flag-blue`} />
           </span>
         </div>
-        <div className='relative w-full max-w-[180px]  aspect-[16/7.5] max-[719px]:h-12 max-h-16 z-20'>
+        <div className='relative z-20'>
           {/* <Image
             src={`https://res.cloudinary.com/dpsdypwrh/image/upload/v1691771575/jose-perez/logo/jose-perez-2024-logo-flag-outline-vector.svg`}
             alt='José Pérez 2024 Diputado, Santo Domingo Circunscripción 3 | ¡Vamos Arreglar Esta Vaina!'

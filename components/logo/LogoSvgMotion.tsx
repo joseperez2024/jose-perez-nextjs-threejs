@@ -1,10 +1,27 @@
-import React from 'react'
+'use client'
 
-const LogoSvg = () => {
+import { motion } from 'framer-motion'
+
+const flagBorderTopLeftVariants = {
+  hidden: {
+    opacity: 0,
+    pathLength: 0,
+  },
+  visible: {
+    opacity: 1,
+    pathLength: 1,
+    transition: {
+      duration: 10,
+      ease: 'easeInOut',
+    },
+  },
+}
+
+const LogoSvgMotion = () => {
   return (
-    <svg
+    <motion.svg
       version='1.1'
-      id='jp-2024-logo-flag-outline'
+      id='jp-2024-logo-flag'
       xmlns='http://www.w3.org/2000/svg'
       xmlnsXlink='http://www.w3.org/1999/xlink'
       x='0px'
@@ -12,15 +29,14 @@ const LogoSvg = () => {
       viewBox='0 0 1870 646.7'
       // style='enable-background:new 0 0 1870 646.7;'
       xmlSpace='preserve'
-      aria-labelledby='jp-2024-logo-flag-outline-title jp-2024-logo-flag-outline-description'
+      aria-labelledby='jp-2024-logo-flag-title jp-2024-logo-flag-description'
       role='img'
-      className='h-12 min-[720px]:h-16'
     >
-      <title id='jp-2024-logo-flag-outline-title'>
+      <title id='jp-2024-logo-flag-title'>
         José Pérez 2024 Diputado, Santo Domingo Circunscripción 3 | ¡Vamos
         Arreglar Esta Vaina!
       </title>
-      <desc id='jp-2024-logo-flag-outline-description'>
+      <desc id='jp-2024-logo-flag-description'>
         José Pérez 2024 Diputado, Santo Domingo Circunscripción 3, ¡Vamos
         Arreglar Esta Vaina! Salud, Seguridad, Educación, Combustibles, Vivienda
       </desc>
@@ -46,13 +62,13 @@ const LogoSvg = () => {
         className='st1'
         points='1144.6,34 1144.6,59 1845,59 1845,209.4 1870,209.4 1870,34 '
       />
-      <polygon
+      <motion.polygon
         id='flag-top-left-blue'
         className='st0'
         points='25,59 725.3,59 725.3,34 0,34 0,209.4 25,209.4 '
       />
       <g id='_x32_024'>
-        <path
+        <motion.path
           id='_x32_-01'
           className='st0'
           d='M848.4,622.4v22.3H780V627l30.9-28.5c2.7-2.5,4.5-4.7,5.4-6.5s1.3-3.5,1.3-5.2
@@ -396,8 +412,8 @@ const LogoSvg = () => {
           </g>
         </g>
       </g>
-    </svg>
+    </motion.svg>
   )
 }
 
-export default LogoSvg
+export default LogoSvgMotion
