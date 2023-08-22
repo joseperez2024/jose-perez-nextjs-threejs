@@ -9,7 +9,7 @@ import { fadeIn, staggerContainer } from '@/utils/motion'
 
 const YouTube = () => {
   const playerProps = {
-    url: 'https://youtu.be/IuHhCu71qIE',
+    url: 'https://youtu.be/p9bmrXt1Rno',
     width: '90%',
     height: '90%',
     playing: false,
