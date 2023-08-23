@@ -12,7 +12,10 @@ import { monserrat } from '@/fonts'
 const Issues = () => {
   const [active, setActive] = useState('jp-issue-002')
   return (
-    <section id='issues' className='p-2 sm:p-4 min-[960px]:p-8'>
+    <section
+      id='issues'
+      className='px-2 py-4 sm:px-4 sm:py-8 min-[960px]:px-8 min-[960px]:py-12 min-[1200px]:py-20 min-[1520px]:py-24'
+    >
       <motion.div
         // {...staggerContainer}
         variants={staggerContainer(0.5, 0.75)}
@@ -30,7 +33,7 @@ const Issues = () => {
           textStyles={`text-center text-base min-[480px]:text-lg min-[960px]:text-2xl text-neutral-600/90 font-semibold ${monserrat.className}`}
         />
 
-        <div className='flex flex-col  mt-6 min-h-[70vh] gap-5'>
+        <div className='flex flex-col mt-6 min-h-[70vh] gap-5'>
           {issues.map((issue, index) => (
             <IssueCard
               key={issue.id}

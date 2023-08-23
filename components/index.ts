@@ -12,6 +12,7 @@ import CustomizerClient from './customizer/CustomizerClient'
 import FilePicker from './customizer/FilePicker'
 import Tab from './customizer/Tab'
 
+import About from './home/About'
 import HomeComponent from './home/HomeComponent'
 import Hero from './home/Hero'
 import Issues from './home/Issues'
@@ -19,6 +20,7 @@ import IssueCard from './home/IssueCard'
 import YouTube from './home/YouTube'
 
 import LogoSvg from './logo/LogoSvg'
+import LogoSvgNav from './logo/LogoSvgNav'
 import LogoSvgMotion from './logo/LogoSvgMotion'
 
 import Navbar from './navbar/Navbar'
@@ -28,6 +30,7 @@ import TextTitle from './text/TextTitle'
 import TextTyping from './text/TextTyping'
 
 export {
+  About,
   AIPicker,
   ButtonCustom,
   BackDrop,
@@ -41,6 +44,7 @@ export {
   Issues,
   IssueCard,
   LogoSvg,
+  LogoSvgNav,
   LogoSvgMotion,
   Navbar,
   NavSocialMenu,

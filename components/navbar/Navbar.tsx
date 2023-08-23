@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { navVariants } from '@/utils/motion'
 import { CgMenuLeft, CgSearch } from 'react-icons/cg'
-import { LogoSvg, NavSocialMenu } from '@/components'
+import { LogoSvgNav, NavSocialMenu } from '@/components'
 
 const Navbar = () => {
   return (
@@ -33,7 +33,7 @@ const Navbar = () => {
             sizes='auto'
             className='object-contain'
           /> */}
-          <LogoSvg />
+          <LogoSvgNav />
         </div>
         <div className='w-1/3 flex flex-row gap-3 justify-end items-center'>
           <NavSocialMenu socialStyles='max-[1279px]:hidden flex flex-row gap-3 justify-end items-center relative w-full text-[32px] text-rd-flag-red' />

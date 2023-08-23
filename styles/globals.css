@@ -59,7 +59,7 @@
 }
 
 .jp-bg-logo-flag-outline {
-  @apply bg-[url('https://res.cloudinary.com/dpsdypwrh/image/upload/v1692115651/jose-perez/logo/jose-perez-2024-logo-bg-flag-outline-only.svg')] bg-center bg-cover bg-no-repeat opacity-25;
+  @apply bg-[url('https://res.cloudinary.com/dpsdypwrh/image/upload/v1692115651/jose-perez/logo/jose-perez-2024-logo-bg-flag-outline-only.svg')] bg-center bg-[length:99vw] min-[880px]:bg-[length:95vw] min-[1200px]:bg-[length:97vw] min-[1520px]:bg-[length:92rem] bg-no-repeat opacity-25;
 }
 /* .jp-bg-logo-flag-outline {
   @apply bg-[url('https://res.cloudinary.com/dpsdypwrh/image/upload/v1692113694/jose-perez/logo/jose-perez-2024-logo-flag-outline-only-1920x1080.svg')] bg-center bg-cover bg-no-repeat opacity-25;

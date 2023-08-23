@@ -1,5 +1,12 @@
 import Image from 'next/image'
-import { ClientOnly, Hero, Issues, LogoSvgMotion, YouTube } from '@/components'
+import {
+  About,
+  ClientOnly,
+  Hero,
+  Issues,
+  LogoSvgMotion,
+  YouTube,
+} from '@/components'
 import CanvasClient from '@/canvas'
 
 export default function Home() {
@@ -8,6 +15,7 @@ export default function Home() {
       <ClientOnly>
         <Hero />
         <YouTube />
+        <About />
         <Issues />
       </ClientOnly>
 

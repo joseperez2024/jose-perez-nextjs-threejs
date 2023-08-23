@@ -18,6 +18,9 @@ module.exports = {
         'rd-flag-blue': '#002d62',
         'rd-flag-red': '#ce1126',
       },
+      transitionTimingFunction: {
+        'out-flex': 'cubic-bezier(0.05, 0.6, 0.4, 0.9)',
+      },
     },
   },
   plugins: [],
