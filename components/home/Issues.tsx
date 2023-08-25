@@ -11,6 +11,7 @@ import { monserrat } from '@/fonts'
 
 const Issues = () => {
   const [active, setActive] = useState('jp-issue-002')
+
   return (
     <section
       id='issues'

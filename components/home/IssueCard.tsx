@@ -22,40 +22,49 @@ const IssueCard = ({
       variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
       className={`relative ${
         active === id ? 'rounded-2xl' : 'rounded-lg'
-      } flex flex-col items-start justify-start transition-[height] duration-[0.7s] ease-out-flex cursor-pointer`}
-      /*  className={`relative ${
-        active === id
-          ? 'flex-[10] lg:flex-[3.5] rounded-2xl'
-          : 'flex-[4] lg:flex-[0.5] rounded-lg'
-      } flex flex-col items-start justify-start min-w-[18vw] h-[400px] transition-[height] duration-[0.7s] ease-out-flex cursor-pointer`} */
+      } cursor-pointer 	transform-origin`}
       onClick={() => setActive(id)}
     >
-      {active !== id ? (
-        <div className='w-full p-4 bg-rd-flag-blue rounded-lg'>
-          <h3
-            className={`${monserrat.className} font-semibold tex-[18px] sm:text-[26px] text-white uppercase`}
-          >
-            {title}
-          </h3>
-        </div>
-      ) : (
-        <>
-          <div className='w-full bg-rd-flag-red rounded-t-2xl px-4 py-6'>
-            <h3
-              className={`${monserrat.className} font-semibold text-lg sm:text-[2rem] text-white uppercase`}
-            >
-              {title}
-            </h3>
-          </div>
-          <div className='w-full h-fit p-4 min-[480px]:p-8 rounded-b-2xl bg-gray-400/20  border-2 border-t-0 border-rd-flag-red '>
-            <p
-              className={`${pathwayExtreme.className} font-normal text-base leading-5 text-rd-flag-blue`}
-            >
-              {summary}
-            </p>
-          </div>
-        </>
-      )}
+      <motion.div
+        layout='size'
+        transition={{ duration: 3 }}
+        style={{ originX: 0, originY: 0 }}
+        className={`${
+          active !== id
+            ? 'bg-rd-flag-blue p-4  rounded-lg'
+            : 'bg-rd-flag-red rounded-t-2xl px-4 py-6'
+        } w-full`}
+      >
+        <h3
+          className={`${monserrat.className} ${
+            active !== id
+              ? 'tex-[18px] sm:text-[26px]'
+              : 'text-lg sm:text-[2rem]'
+          } font-semibold text-white uppercase`}
+        >
+          {title}
+        </h3>
+      </motion.div>
+      <motion.div
+        layout='size'
+        transition={{ duration: 0.4 }}
+        style={{ originX: '50%', originY: 0.5 }}
+        className={`${
+          active !== id
+            ? 'h-0'
+            : 'h-fit p-4 min-[480px]:p-8 w-full rounded-b-2xl bg-gray-400/20  border-2 border-t-0 border-rd-flag-red transition-[height] duration-[7s] 	transform-origin'
+        } `}
+      >
+        <motion.p
+          layout='size'
+          style={{ originX: '50%', originY: '50%' }}
+          className={`${pathwayExtreme.className} ${
+            active !== id ? 'hidden' : 'block'
+          } font-normal text-base leading-5 text-rd-flag-blue`}
+        >
+          {summary}
+        </motion.p>
+      </motion.div>
     </motion.div>
   )
 }
