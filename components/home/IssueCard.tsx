@@ -26,9 +26,6 @@ const IssueCard = ({
       onClick={() => setActive(id)}
     >
       <motion.div
-        layout='size'
-        transition={{ duration: 3 }}
-        style={{ originX: 0, originY: 0 }}
         className={`${
           active !== id
             ? 'bg-rd-flag-blue p-4  rounded-lg'
