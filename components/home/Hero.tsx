@@ -114,8 +114,8 @@ const Hero = () => {
           className='flex flex-col gap-6 w-full sm:max-w-screen-sm mx-auto'
           {...headContentAnimation}
         >
-          <motion.div className='relative flex flex-row w-full'>
-            {/* <motion.div className='hidden'> */}
+          {/* <motion.div className='relative flex flex-row w-full'> */}
+          <motion.div className='hidden'>
             <ButtonCustom
               label='!Unete!'
               onClick={handleClick}
