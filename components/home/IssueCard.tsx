@@ -35,11 +35,7 @@ const IssueCard = ({
         } w-full`}
       >
         <h3
-          className={`${monserrat.className} ${
-            active !== id
-              ? 'text-[20px] sm:text-[26px]'
-              : 'text-lg sm:text-[2rem]'
-          } font-bold text-white uppercase`}
+          className={`${monserrat.className} text-lg min-[360px]:text-[20px] sm:text-[2rem] font-semibold min-[360px]:font-bold text-white uppercase`}
         >
           {title}
         </h3>
@@ -58,8 +54,10 @@ const IssueCard = ({
           layout='size'
           style={{ originX: '50%', originY: '50%' }}
           className={`${monserrat.className} ${
-            active !== id ? 'hidden' : 'block text-[18px] sm:text-[24px]'
-          } font-bold text-rd-flag-blue uppercase`}
+            active !== id
+              ? 'hidden'
+              : 'block text-base min-[360px]:text-[18px] sm:text-[24px]'
+          } font-bold text-rd-flag-blue uppercase mb-2`}
         >
           {subtitle}
         </motion.h4>
