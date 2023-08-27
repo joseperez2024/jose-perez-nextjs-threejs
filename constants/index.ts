@@ -61,8 +61,8 @@ export const issues = [
   },
   {
     id: 'jp-issue-007',
-    title: 'Empleos',
-    subtitle: 'Mejorar sueldos, Disminuir horas de trabajo',
+    title: 'Mejorar sueldos',
+    subtitle: 'Mejorar sueldos, disminuir horas de trabajo',
     metaDescription:
       'Estudios internacionales respaldan la idea de que el aumento de salarios y la reducción de horas de trabajo pueden tener efectos positivos en la productividad y la satisfacción laboral. Aplicar estas estrategias en República Dominicana podría mejorar el bienestar de los empleados.',
     summary:
@@ -91,7 +91,7 @@ export const issues = [
   },
   {
     id: 'jp-issue-010',
-    title: 'Vivienda',
+    title: 'Viviendas',
     subtitle:
       'Construir los vecindarios de viviendas públicas asequibles que necesitamos',
     metaDescription:

@@ -17,6 +17,7 @@ import HomeComponent from './home/HomeComponent'
 import Hero from './home/Hero'
 import Issues from './home/Issues'
 import IssueCard from './home/IssueCard'
+import Join from './home/Join'
 import YouTube from './home/YouTube'
 
 import LogoSvg from './logo/LogoSvg'
@@ -43,6 +44,7 @@ export {
   Hero,
   Issues,
   IssueCard,
+  Join,
   LogoSvg,
   LogoSvgNav,
   LogoSvgMotion,

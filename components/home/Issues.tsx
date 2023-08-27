@@ -15,7 +15,7 @@ const Issues = () => {
   return (
     <section
       id='issues'
-      className='px-2 py-4 sm:px-4 sm:py-8 min-[960px]:px-8 min-[960px]:py-12 min-[1200px]:py-20 min-[1520px]:py-24'
+      className='px-2 py-4 sm:px-4 sm:py-8 min-[960px]:py-12 min-[1200px]:py-20 min-[1520px]:py-24'
     >
       <motion.div
         // {...staggerContainer}

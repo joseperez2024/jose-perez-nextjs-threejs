@@ -13,12 +13,12 @@ const Navbar = () => {
       variants={navVariants}
       initial='hidden'
       whileInView='show'
-      className={`p-2 fixed top-0 left-0 right-0  z-10 bg-white`}
+      className={`fixed top-0 left-0 right-0  z-10 bg-white`}
     >
       {/* <div className='absolute w-[50%] inset-0 gradient-od' /> */}
       {/* <div className='absolute w-full inset-0 bg-polymorphism shadow-md z-0' /> */}
       <div
-        className={`max-w-[1920px] w-full mx-auto flex justify-between items-center gap-8 text-black`}
+        className={`w-full max-w-[1920px] mx-auto p-2 flex justify-between items-center gap-8 text-rd-flag-blue `}
       >
         <div className='relative w-1/3'>
           <span className='hidden'>

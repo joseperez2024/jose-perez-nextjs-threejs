@@ -20,6 +20,8 @@ const IssueCard = ({
   return (
     <motion.div
       variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
+      layout='size'
+      layoutDependency
       className={`relative ${
         active === id ? 'rounded-2xl' : 'rounded-lg'
       } cursor-pointer 	transform-origin`}
@@ -35,9 +37,9 @@ const IssueCard = ({
         <h3
           className={`${monserrat.className} ${
             active !== id
-              ? 'tex-[18px] sm:text-[26px]'
+              ? 'text-[20px] sm:text-[26px]'
               : 'text-lg sm:text-[2rem]'
-          } font-semibold text-white uppercase`}
+          } font-bold text-white uppercase`}
         >
           {title}
         </h3>
@@ -52,6 +54,15 @@ const IssueCard = ({
             : 'h-fit p-4 min-[480px]:p-8 w-full rounded-b-2xl bg-gray-400/20  border-2 border-t-0 border-rd-flag-red transition-[height] duration-[7s] 	transform-origin'
         } `}
       >
+        <motion.h4
+          layout='size'
+          style={{ originX: '50%', originY: '50%' }}
+          className={`${monserrat.className} ${
+            active !== id ? 'hidden' : 'block text-[18px] sm:text-[24px]'
+          } font-bold text-rd-flag-blue uppercase`}
+        >
+          {subtitle}
+        </motion.h4>
         <motion.p
           layout='size'
           style={{ originX: '50%', originY: '50%' }}

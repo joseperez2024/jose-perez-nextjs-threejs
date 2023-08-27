@@ -64,10 +64,12 @@ export default function RootLayout({
   return (
     <html lang='en' className=''>
       <body className={`${inter.className}  dark:bg-od-primary-brown`}>
-        <ClientOnly>
-          <Navbar />
-        </ClientOnly>
-        {children}
+        <main className='max-w-[1920px] mx-auto'>
+          <ClientOnly>
+            <Navbar />
+          </ClientOnly>
+          {children}
+        </main>
       </body>
     </html>
   )

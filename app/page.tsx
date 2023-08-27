@@ -4,6 +4,7 @@ import {
   ClientOnly,
   Hero,
   Issues,
+  Join,
   LogoSvgMotion,
   YouTube,
 } from '@/components'
@@ -17,6 +18,7 @@ export default function Home() {
         <YouTube />
         <About />
         <Issues />
+        {/* <Join /> */}
       </ClientOnly>
 
       {/* <CanvasClient /> */}
