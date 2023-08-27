@@ -16,6 +16,7 @@ const IssueCard = ({
   title,
   subtitle,
   summary,
+  icon: Icon,
 }: IssueCardProps) => {
   return (
     <motion.div
@@ -30,14 +31,15 @@ const IssueCard = ({
       <motion.div
         className={`${
           active !== id
-            ? 'bg-rd-flag-blue p-4  rounded-lg'
-            : 'bg-rd-flag-red rounded-t-2xl px-4 py-6'
-        } w-full`}
+            ? 'bg-rd-flag-blue rounded-lg'
+            : 'bg-rd-flag-red rounded-t-2xl '
+        } w-full px-4 py-6 sm:px-6 sm:py-8`}
       >
         <h3
-          className={`${monserrat.className} text-lg min-[360px]:text-[20px] sm:text-[2rem] font-semibold min-[360px]:font-bold text-white uppercase`}
+          className={`${monserrat.className} flex flex-row gap-2 sm:gap-4 items-center text-base min-[360px]:text-lg min-[400px]:text-xl sm:text-[2rem] font-semibold min-[360px]:font-bold text-white uppercase leading-none`}
         >
-          {title}
+          <Icon className='leading-none text-white' color='#fff' />{' '}
+          <span className='block'>{title}</span>
         </h3>
       </motion.div>
       <motion.div

@@ -1,8 +1,16 @@
+import { BsHousesFill } from 'react-icons/bs'
+import { FaGasPump, FaUserGraduate, FaMoneyBills } from 'react-icons/fa6'
+import { GiFarmer } from 'react-icons/gi'
+import { IoFitness, IoLibrary } from 'react-icons/io5'
+import { MdElectricalServices, MdForest } from 'react-icons/md'
+import { RiPoliceCarFill } from 'react-icons/ri'
+
 export const issues = [
   {
     id: 'jp-issue-001',
     title: 'Salud Para Todos',
     subtitle: 'La atención médica como un derecho humano: SALUD Para Todos',
+    icon: IoFitness,
     metaDescription:
       'Hoy en día, hay millones de dominicanos aún no tienen seguro médico o tienen seguro insuficiente. Incluso para quienes tienen seguro, los costos son tan altos que las facturas médicas hacen que la gente prefiera no ir al médico. Esto necesita cambiar.',
     summary:
@@ -13,6 +21,7 @@ export const issues = [
     id: 'jp-issue-002',
     title: 'Seguridad Ciudadana',
     subtitle: 'Una Real Seguridad Ciudadana',
+    icon: RiPoliceCarFill,
     metaDescription:
       'La criminalidad de la República Dominicana se está arropando todos los más de 48,000 km². La “Reforma Policial” fallida de Abinader obviamente no ha dado resultados ya que la delincuencia ha aumentado en su mandato. Necesitamos una verdadera policía.',
     summary:
@@ -23,6 +32,7 @@ export const issues = [
     id: 'jp-issue-003',
     title: 'Educación',
     subtitle: 'Educación: Transformar el Ambiente Escolar',
+    icon: IoLibrary,
     metaDescription:
       'Todos tenemos derecho a una buena educación. En República Dominicana es solo para los ricos y poderosos que la pueden pagar. El  ambiente de las escuelas debe ser transformado. Los estudiantes merecen un espacio cómodo y seguro para recibir el pan de la enseñanza.',
     summary:
@@ -33,6 +43,7 @@ export const issues = [
     id: 'jp-issue-004',
     title: 'Educación Universitaria',
     subtitle: 'Educación Universitaria Para Todos',
+    icon: FaUserGraduate,
     metaDescription:
       'Nuevos campos de la UASD garantizarían que todos los ciudadanos tengan acceso a una educación universitaria buena y asequible. Estas instituciones brindan oportunidades educativas inclusivas y adaptadas a las necesidades de la comunidad.',
     summary:
@@ -43,6 +54,7 @@ export const issues = [
     id: 'jp-issue-005',
     title: 'Sistema Eléctrico',
     subtitle: 'Limpiar El Sistema Eléctrico',
+    icon: MdElectricalServices,
     metaDescription:
       'Aunque el país tiene la capacidad de generar más de 5,000 megavatios y la demanda actual no supera los 3,000 megavatios, el problema radica en la forma en que es distribuida. La electricidad generada es suficiente para todos, pero nos siguen engañando.',
     summary:
@@ -53,6 +65,7 @@ export const issues = [
     id: 'jp-issue-006',
     title: 'Combustibles',
     subtitle: 'Combustibles: Modificar Ley de Hidrocarburos',
+    icon: FaGasPump,
     metaDescription:
       'Reducir impuestos a los hidrocarburos es una estrategia efectiva para poner dinero en las manos de la gente y estimular la economía. Permitir que los ciudadanos tengan más recursos para gastar, se fomenta el consumo y se impulsa el crecimiento económico.',
     summary:
@@ -61,8 +74,9 @@ export const issues = [
   },
   {
     id: 'jp-issue-007',
-    title: 'Mejorar sueldos',
+    title: 'Sueldos',
     subtitle: 'Mejorar sueldos, disminuir horas de trabajo',
+    icon: FaMoneyBills,
     metaDescription:
       'Estudios internacionales respaldan la idea de que el aumento de salarios y la reducción de horas de trabajo pueden tener efectos positivos en la productividad y la satisfacción laboral. Aplicar estas estrategias en República Dominicana podría mejorar el bienestar de los empleados.',
     summary:
@@ -73,6 +87,7 @@ export const issues = [
     id: 'jp-issue-008',
     title: 'Medio Ambiente',
     subtitle: 'Proteger el Medio Ambiente',
+    icon: MdForest,
     metaDescription:
       'Proteger el medio ambiente en República Dominicana es fundamental para un futuro sostenible. El rescate de ríos y playas, agua potable para todos, prohibir los plásticos de un solo uso y combatir el corte ilegal de árboles para la producción de carbón deben priorizarse.',
     summary:
@@ -83,6 +98,7 @@ export const issues = [
     id: 'jp-issue-009',
     title: 'Agricultura',
     subtitle: 'Agricultura: Subsidiar el campo',
+    icon: GiFarmer,
     metaDescription:
       'Subsidiar el campo en República Dominicana estimularía la producción agrícola, esto bajaría los precios de alimentos y se fortalecería la autosuficiencia del país. Beneficiando los agricultores, al brindarles el apoyo necesario para mejorar su productividad',
     summary:
@@ -94,6 +110,7 @@ export const issues = [
     title: 'Viviendas',
     subtitle:
       'Construir los vecindarios de viviendas públicas asequibles que necesitamos',
+    icon: BsHousesFill,
     metaDescription:
       'La construcción de vecindarios con unidades de vivienda públicas en la RD es una necesidad urgente para abordar la pobreza y la falta de viviendas adecuadas. Estos vecindarios proporcionarán a las familias una alternativa segura y digna',
     summary:

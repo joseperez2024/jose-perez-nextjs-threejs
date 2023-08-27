@@ -71,5 +71,6 @@ export interface IssueCardProps {
   setActive: (id: string) => void
   title: string
   subtitle: string
+  icon: IconType
   summary: string
 }
