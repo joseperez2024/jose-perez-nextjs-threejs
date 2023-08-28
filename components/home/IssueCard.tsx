@@ -49,7 +49,7 @@ const IssueCard = ({
         className={`${
           active !== id
             ? 'h-0'
-            : 'h-fit p-4 min-[480px]:p-8 w-full rounded-b-2xl bg-gray-400/20  border-2 border-t-0 border-rd-flag-red transition-[height] duration-[7s] 	transform-origin'
+            : 'h-fit p-4 min-[480px]:p-8 xl:p-12 2xl:p-16 w-full rounded-b-2xl bg-gray-400/20  border-2 border-t-0 border-rd-flag-red transition-[height] duration-[7s] 	transform-origin'
         } `}
       >
         <motion.h4
@@ -58,8 +58,8 @@ const IssueCard = ({
           className={`${monserrat.className} ${
             active !== id
               ? 'hidden'
-              : 'block text-base min-[360px]:text-[18px] sm:text-[24px]'
-          } font-bold text-rd-flag-blue uppercase mb-2`}
+              : 'block text-base min-[360px]:text-[18px] sm:text-2xl xl:text-[1.76rem]'
+          } font-bold text-rd-flag-blue uppercase mb-2 xl:mb-4 leading-none`}
         >
           {subtitle}
         </motion.h4>
@@ -68,7 +68,7 @@ const IssueCard = ({
           style={{ originX: '50%', originY: '50%' }}
           className={`${pathwayExtreme.className} ${
             active !== id ? 'hidden' : 'block'
-          } font-normal text-base leading-5 text-rd-flag-blue`}
+          } font-medium text-sm min-[400px]:text-base lg:text-lg xl:text-xl 2xl:text-[1.375rem] !leading-normal lg:!leading-relaxed text-rd-flag-blue`}
         >
           {summary}
         </motion.p>
