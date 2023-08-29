@@ -13,12 +13,14 @@ import CanvasClient from '@/canvas'
 export default function Home() {
   return (
     <main className=''>
-      <ClientOnly>
+      <ClientOnly className='space-y-2 sm:space-y-4'>
         <Hero />
-        <YouTube />
-        <About />
-        <Issues />
-        {/* <Join /> */}
+        <div className='space-y-2 px-2 sm:space-y-4 sm:px-4'>
+          <YouTube />
+          <About />
+          <Issues />
+          {/* <Join /> */}
+        </div>
       </ClientOnly>
 
       {/* <CanvasClient /> */}

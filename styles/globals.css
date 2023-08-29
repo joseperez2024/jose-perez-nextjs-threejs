@@ -65,6 +65,10 @@
   @apply bg-[url('https://res.cloudinary.com/dpsdypwrh/image/upload/v1692113694/jose-perez/logo/jose-perez-2024-logo-flag-outline-only-1920x1080.svg')] bg-center bg-cover bg-no-repeat opacity-25;
 } */
 
+.jp-bg-map-sde-overview {
+  @apply bg-[url('https://res.cloudinary.com/dpsdypwrh/image/upload/v1693318251/jose-perez/maps/jose-perez-2024-map-sto-dgo-circ-03-overview.webp')] bg-top  bg-[length:135%] sm:bg-cover sm:bg-[center_-2.5vw] bg-no-repeat;
+}
+
 .bg-polymorphism {
   background-color: rgba(255, 255, 255, 0.85);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);

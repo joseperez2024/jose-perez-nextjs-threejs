@@ -3,7 +3,7 @@
 import { ClientOnlyProps } from '@/types'
 import { useEffect, useState } from 'react'
 
-const ClientOnly = ({ children }: ClientOnlyProps) => {
+const ClientOnly = ({ children, className }: ClientOnlyProps) => {
   const [hasMounted, setHasMounted] = useState(false)
 
   useEffect(() => {
@@ -14,7 +14,7 @@ const ClientOnly = ({ children }: ClientOnlyProps) => {
 
   return (
     <>
-      <div className=''>{children}</div>
+      <div className={className}>{children}</div>
     </>
   )
 }

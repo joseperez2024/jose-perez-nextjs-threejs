@@ -36,10 +36,10 @@ const IssueCard = ({
         } w-full px-4 py-6 sm:px-6 sm:py-8`}
       >
         <h3
-          className={`${monserrat.className} flex flex-row gap-2 sm:gap-4 items-center text-base min-[360px]:text-lg min-[400px]:text-xl sm:text-[2rem] font-semibold min-[360px]:font-bold text-white uppercase leading-none`}
+          className={`${monserrat.className} flex flex-row gap-2 sm:gap-4 items-center text-xs min-[360px]:text-sm min-[400px]:text-base sm:text-lg font-semibold min-[360px]:font-bold text-white uppercase leading-none`}
         >
           <Icon className='leading-none text-white' color='#fff' />{' '}
-          <span className='block'>{title}</span>
+          <span className='block'>{subtitle}</span>
         </h3>
       </motion.div>
       <motion.div

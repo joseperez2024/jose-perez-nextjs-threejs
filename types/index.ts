@@ -19,6 +19,7 @@ export interface ButtonCustomProps {
 }
 
 export interface ClientOnlyProps {
+  className?: string
   children: ReactNode
 }
 

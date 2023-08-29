@@ -10,7 +10,7 @@ import { pathwayExtreme } from '@/fonts'
 
 const About = () => {
   return (
-    <section className='p-2 sm:p-4'>
+    <section className='min-[960px]:py-12 min-[1200px]:py-20 min-[1520px]:py-24'>
       <motion.div
         className='relative flex flex-col xl:flex-row gap-4 xl:gap-6 justify-center items-center mx-auto  px-4 py-8 min-[480px]:px-6 min-[560px]:px-8 min-[560px]:py-12 min-[800px]:p-12 min-[960px]:p-16 xl:px-12 bg-rd-flag-blue rounded-2xl'
         {...staggerContainer}

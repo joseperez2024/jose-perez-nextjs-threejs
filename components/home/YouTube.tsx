@@ -25,17 +25,22 @@ const YouTube = () => {
   return (
     <>
       <motion.section
-        className='jp-home-section-youtube relative flex flex-col justify-center items-center h-[65vw] min-[1760px]:h-[60vw] py-5 bg-slate-200/60'
+        className='jp-home-section-youtube relative flex flex-col justify-center items-center min-[960px]:py-12 min-[1200px]:py-20 min-[1520px]:py-24'
         {...staggerContainer}
         initial='hidden'
         whileInView='show'
         viewport={{ once: false, amount: 0.25 }}
       >
-        {/* sm:px-6 min-[960px]:px-8 min-[1120px]:px-9 */}
-        <div className=' jp-bg-logo-flag-outline absolute w-full inset-0' />
-        <motion.div className='jp-reactplayer-youtube relative aspect-video w-[95vw] min-[880px]:w-[90vw]  max-w-[1360px] mx-auto flex flex-col justify-center items-center'>
+        <motion.div className='jp-reactplayer-youtube relative aspect-video w-full max-w-[1360px] mx-auto flex flex-col justify-center items-center'>
           <ReactPlayer {...playerProps} />
         </motion.div>
+        {/* <div className='relative flex flex-col justify-center items-center w-full h-full bg-gray-400/20 min-[960px]:rounded-2xl md:py-8'>
+          sm:px-6 min-[960px]:px-8 min-[1120px]:px-9
+          <div className=' jp-bg-logo-flag-outline absolute w-full inset-0 p-2 sm:p-4 md:py-8' />
+          <motion.div className='jp-reactplayer-youtube relative aspect-video w-[95vw] min-[880px]:w-[90vw]  max-w-[1360px] mx-auto flex flex-col justify-center items-center'>
+            <ReactPlayer {...playerProps} />
+          </motion.div>
+        </div> */}
       </motion.section>
     </>
   )
