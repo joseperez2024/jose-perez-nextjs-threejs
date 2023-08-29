@@ -52,7 +52,7 @@ const IssueCard = ({
             : 'h-fit p-4 min-[480px]:p-8 xl:p-12 2xl:p-16 w-full rounded-b-2xl bg-gray-400/20  border-2 border-t-0 border-rd-flag-red transition-[height] duration-[7s] 	transform-origin'
         } `}
       >
-        <motion.h4
+        {/* <motion.h4
           layout='size'
           style={{ originX: '50%', originY: '50%' }}
           className={`${monserrat.className} ${
@@ -62,7 +62,7 @@ const IssueCard = ({
           } font-bold text-rd-flag-blue uppercase mb-2 xl:mb-4 leading-none`}
         >
           {subtitle}
-        </motion.h4>
+        </motion.h4> */}
         <motion.p
           layout='size'
           style={{ originX: '50%', originY: '50%' }}
