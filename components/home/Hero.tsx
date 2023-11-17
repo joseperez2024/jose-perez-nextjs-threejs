@@ -31,7 +31,7 @@ const Hero = () => {
 
   return (
     <AnimatePresence>
-      <motion.div className='bg-od-primary-brown flex flex-col gap-y-4 relative p-2 py-8 min-[480px]:px-4 min-[480px]:pt-8 min-[480px]:pb-12 min-[560px]:px-8 sm:px-4 md:px-8 !pt-32'>
+      <motion.div className='bg-rd-flag-blue flex flex-col gap-y-4 relative p-2 py-8 min-[480px]:px-4 min-[480px]:pt-8 min-[480px]:pb-12 min-[560px]:px-8 sm:px-4 md:px-8 !pt-32'>
         <motion.section
           className={` sm:justify-between sm:items-center flex max-[639px]:flex-col gap-y-4`}
           {...slideAnimation('left')}
@@ -72,13 +72,13 @@ const Hero = () => {
             </motion.div>
             <motion.div className='w-full h-full' {...headContainerAnimation}>
               <motion.div className='relative aspect-[16/3] w-[40%] sm:w-[60%] mx-auto max-w-[240px]'>
-                <Image
+                {/*  <Image
                   src={`https://res.cloudinary.com/dpsdypwrh/image/upload/v1692219636/jose-perez/opcion-democratica/jose-perez-2024-logo-opcion-democratica-all-white.svg`}
                   alt='José Pérez 2024 Diputado, Santo Domingo Circunscripción 3. ¡Vamos Arreglar Esta Vaina! | Opción Democrática'
                   fill
                   sizes='auto'
                   className='object-contain'
-                />
+                /> */}
               </motion.div>
             </motion.div>
           </motion.header>
@@ -86,7 +86,7 @@ const Hero = () => {
             className='relative flex flex-col gap-y-4 w-full sm:w-1/2'
             {...headContainerAnimation}
           >
-            <div className='absolute w-full inset-0 od-bg-logo-white' />
+            <div className='absolute w-full inset-0' />
             <motion.div className='relative aspect-square w-[95%] min-[480px]:w-[80%] min-[560px]:w-[75%] sm:w-[70%] md:w-[65%] xl:w-[60%] min-[1440px]:w-[55%] mx-auto'>
               <Image
                 src={`https://res.cloudinary.com/dpsdypwrh/image/upload/v1691711146/jose-perez/home/jp-2024-headsot-standing-sideways-square.webp`}
@@ -99,7 +99,7 @@ const Hero = () => {
             <motion.div className='w-full h-full' {...headContentAnimation}>
               <motion.div className='relative aspect-[16/7.5] min-[480px]:w-[85%] min-[560px]:w-[80%] sm:w-[75%] md:w-[70%] xl:w-[65%] min-[1440px]:w-[60%] mx-auto -mt-14 min-[400px]:-mt-[4.5rem] min-[1600px]:-mt-[5rem]'>
                 <Image
-                  src={`https://res.cloudinary.com/dpsdypwrh/image/upload/v1691793361/jose-perez/tagline/jose-perez-2024-tagline-vamos-arreglar-esta-vaina-web.webp`}
+                  src={`https://res.cloudinary.com/dpsdypwrh/image/upload/v1700228885/jose-perez/tagline/jose-perez-2024-tagline-vamos-arreglar-esta-vaina-rd-red.webp`}
                   alt='José Pérez 2024 Diputado, Santo Domingo Circunscripción 3. ¡Vamos Arreglar Esta Vaina!'
                   fill
                   sizes='auto'

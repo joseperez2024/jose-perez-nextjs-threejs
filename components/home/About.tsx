@@ -24,7 +24,7 @@ const About = () => {
         >
           <div className='relative aspect-[16/7.5] mx-auto min-[480px]:w-[50vw] min-[960px]:w-[40vw] xl:w-[30vw] min-[1360px]:w-[35vw] min-[1600px]:w-[30vw]'>
             <Image
-              src={`https://res.cloudinary.com/dpsdypwrh/image/upload/v1691793361/jose-perez/tagline/jose-perez-2024-tagline-vamos-arreglar-esta-vaina-web.webp`}
+              src={`https://res.cloudinary.com/dpsdypwrh/image/upload/v1700228885/jose-perez/tagline/jose-perez-2024-tagline-vamos-arreglar-esta-vaina-rd-red.webp`}
               alt='José Pérez 2024 Diputado, Santo Domingo Circunscripción 3. ¡Vamos Arreglar Esta Vaina!'
               fill
               sizes='auto'
